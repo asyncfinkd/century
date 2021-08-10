@@ -8,7 +8,7 @@ if (lastCharacters) {
     if (!number.match("-")) {
       if (+lastCharacters === 0) {
         let centuredNumber = +number.slice(0, number.length - 2)
-                                  console.log("century: " + centuredNumber);
+        console.log("century: " + centuredNumber);
       } else {
         if (+lastCharacters > 0 && +number > 0) {
           let century = 0;
